@@ -7643,8 +7643,8 @@ function subjBtns(){const L=Object.keys(SUBCFG).filter(id=>PACKS[id]&&PACKS[id].
 /* ============== ONLINE SAVING (Supabase) ==============
    Teachers log in with Supabase accounts. Students use their class, name and PIN through safe server functions.
    Everything still works offline on each device; it is saved online again as soon as there is internet. */
-const CLOUD={url:window.CLOUD_TEST_URL||'https://qmdgmvanufbcqfzykufe.supabase.co',
- key:window.CLOUD_TEST_KEY||'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFtZGdtdmFudWZiY3FmenlrdWZlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTI4ODExNzksImV4cCI6MjEwODQ1NzE3OX0.DqQ3P-zTZ4hGaikvBJGgsQoghh7kUQzUhJHv_El8gOg',
+const CLOUD={url:window.CLOUD_TEST_URL||'https://pjeydzrabogdyqstgpis.supabase.co',
+ key:window.CLOUD_TEST_KEY||'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBqZXlkenJhYm9nZHlxc3RncGlzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTQ2NTUzMTgsImV4cCI6MjExMDIzMTMxOH0.bQf1iFWH11H_JipbUIDfeDKREUrWR0UYpWvynCBAdCo',
  domain:'champions.sheer-love-rwanda.org'};
 const CKEY='slr_champions_cloud';
 let CS=(()=>{try{return JSON.parse(localStorage.getItem(CKEY))||{};}catch(e){return {};}})();
